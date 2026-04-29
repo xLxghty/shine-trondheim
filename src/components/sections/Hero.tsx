@@ -44,7 +44,7 @@ const Hero = () => {
 
           <div className="flex flex-wrap gap-3 sm:gap-4 animate-fade-in-up animation-delay-400">
             <Button asChild variant="hero" size="xl">
-              <a href="#booking">
+              <a href="#contact">
                 <Calendar className="w-5 h-5" />
                 Bestill nå
               </a>

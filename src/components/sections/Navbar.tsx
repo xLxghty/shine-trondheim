@@ -15,7 +15,7 @@ const Navbar = () => {
   const links = [
     { href: "#services", label: "Tjenester" },
     { href: "#about", label: "Om oss" },
-    { href: "#booking", label: "Bestill" },
+    { href: "#contact", label: "Kontakt" },
     { href: "#location", label: "Finn oss" },
   ];
 
@@ -39,7 +39,7 @@ const Navbar = () => {
             <a href="tel:+4791760787"><Phone className="w-4 h-4" /> 91 76 07 87</a>
           </Button>
           <Button asChild variant="hero" size="sm">
-            <a href="#booking">Bestill nå</a>
+            <a href="#contact">Bestill nå</a>
           </Button>
         </div>
 
@@ -57,7 +57,7 @@ const Navbar = () => {
               </a>
             ))}
             <Button asChild variant="hero" size="lg" className="mt-2">
-              <a href="#booking" onClick={() => setOpen(false)}>Bestill nå</a>
+              <a href="#contact" onClick={() => setOpen(false)}>Bestill nå</a>
             </Button>
           </div>
         </div>

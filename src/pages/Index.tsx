@@ -6,7 +6,7 @@ import BeforeAfter from "@/components/sections/BeforeAfter";
 import WhyChooseUs from "@/components/sections/WhyChooseUs";
 import Reviews from "@/components/sections/Reviews";
 import About from "@/components/sections/About";
-import Booking from "@/components/sections/Booking";
+import Contact from "@/components/sections/Contact";
 import Location from "@/components/sections/Location";
 import Footer from "@/components/sections/Footer";
 import FloatingCTA from "@/components/sections/FloatingCTA";
@@ -23,7 +23,7 @@ const Index = () => {
         <WhyChooseUs />
         <Reviews />
         <About />
-        <Booking />
+        <Contact />
         <Location />
       </main>
       <Footer />

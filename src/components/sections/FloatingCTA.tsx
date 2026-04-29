@@ -7,7 +7,7 @@ const FloatingCTA = () => {
         <a href="tel:+4791760787" className="flex items-center justify-center gap-2 h-12 rounded-xl bg-secondary text-secondary-foreground font-semibold text-sm">
           <Phone className="w-4 h-4" /> Ring
         </a>
-        <a href="#booking" className="flex items-center justify-center gap-2 h-12 rounded-xl bg-gradient-primary text-primary-foreground font-bold text-sm animate-pulse-glow">
+        <a href="#contact" className="flex items-center justify-center gap-2 h-12 rounded-xl bg-gradient-primary text-primary-foreground font-bold text-sm animate-pulse-glow">
           <Calendar className="w-4 h-4" /> Bestill nå
         </a>
       </div>
