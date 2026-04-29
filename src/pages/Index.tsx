@@ -17,10 +17,8 @@ const Index = () => {
         <Hero />
         <TrustBar />
         <Services />
-        <BeforeAfter />
         <WhyChooseUs />
         <Reviews />
-        <About />
         <Contact />
         <Location />
       </main>
