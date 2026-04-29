@@ -35,7 +35,7 @@ const Footer = () => {
             <h3 className="font-display font-bold mb-4 text-sm uppercase tracking-wider">Lenker</h3>
             <ul className="space-y-2.5 text-sm text-muted-foreground">
               <li><a href="#services" className="hover:text-foreground transition-colors">Tjenester</a></li>
-              <li><a href="#about" className="hover:text-foreground transition-colors">Om oss</a></li>
+              <li><a href="#reviews" className="hover:text-foreground transition-colors">Anmeldelser</a></li>
               <li><a href="#contact" className="hover:text-foreground transition-colors">Kontakt</a></li>
               <li><a href="#location" className="hover:text-foreground transition-colors">Finn oss</a></li>
             </ul>

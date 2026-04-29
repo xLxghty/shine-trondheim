@@ -14,7 +14,7 @@ const Navbar = () => {
 
   const links = [
     { href: "#services", label: "Tjenester" },
-    { href: "#about", label: "Om oss" },
+    { href: "#reviews", label: "Anmeldelser" },
     { href: "#contact", label: "Kontakt" },
     { href: "#location", label: "Finn oss" },
   ];
