@@ -1,56 +1,21 @@
-import { Car, Sparkles, Crown, Wind, Users, Briefcase, Tag } from "lucide-react";
+import { Car, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const services = [
   {
     icon: Car,
     title: "Utvendig vask",
-    desc: "Skånsom skumvask, felger og dekkglans. Perfekt for ukentlig vedlikehold.",
-    price: "fra 299 kr",
+    desc: "Skånsom skumvask, felger og dekkglans. Bilen din skinner som ny igjen.",
+    price: "250 kr",
     duration: "30 min",
   },
   {
     icon: Sparkles,
-    title: "Interiør dyprens",
-    desc: "Sete, tepper, dashbord og himling — friskt og som nytt innvendig.",
-    price: "fra 899 kr",
-    duration: "90 min",
-  },
-  {
-    icon: Crown,
-    title: "Full Premium Detail",
-    desc: "Komplett innvendig og utvendig behandling med polering og forsegling.",
-    price: "fra 1 990 kr",
-    duration: "3 timer",
-    featured: true,
-  },
-  {
-    icon: Wind,
-    title: "Støvsuging & oppfrisking",
-    desc: "Rask innvendig oppfrisking med støvsuging, vinduspuss og duftbehandling.",
-    price: "fra 449 kr",
+    title: "Innvendig vask",
+    desc: "Støvsuging, rens av sete, tepper og dashbord — friskt og som nytt innvendig.",
+    price: "250 kr",
     duration: "45 min",
-  },
-  {
-    icon: Users,
-    title: "Familiebil rens",
-    desc: "Ekstra fokus på flekker, smuler og bilstoler — trygt for små passasjerer.",
-    price: "fra 1 290 kr",
-    duration: "2 timer",
-  },
-  {
-    icon: Briefcase,
-    title: "Firmabil & flåte",
-    desc: "Fast avtale for bedrifter — alltid representable biler til kunder og kolleger.",
-    price: "tilbud",
-    duration: "fleksibelt",
-  },
-  {
-    icon: Tag,
-    title: "Salgsklargjøring",
-    desc: "Skal du selge bilen? Vi gjør den salgsklar og maksimerer verdien.",
-    price: "fra 1 690 kr",
-    duration: "2.5 timer",
+    featured: true,
   },
 ];
 
@@ -73,7 +38,7 @@ const Services = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 max-w-4xl">
           {services.map((service, i) => (
             <div
               key={i}
@@ -113,7 +78,7 @@ const Services = () => {
 
         <div className="mt-12 text-center">
           <Button asChild variant="hero" size="lg">
-            <a href="#booking">Bestill din pakke</a>
+            <a href="#contact">Bestill din pakke</a>
           </Button>
         </div>
       </div>
